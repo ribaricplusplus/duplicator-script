@@ -8,12 +8,13 @@
   },
   "bin": "index.js",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Bruno Ribaric",
+  "license": "MIT",
   "dependencies": {
     "commander": "^10.0.0",
     "puppeteer": "^19.7.2",
     "puppeteer-utilz": "^4.0.8",
     "regenerator-runtime": "^0.13.11"
-  }
+  },
+  "repository": "https://github.com/ribaricplusplus/duplicator-script"
 }
