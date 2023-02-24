@@ -1,0 +1,19 @@
+{
+  "name": "@ribarich/duplicator-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^10.0.0",
+    "puppeteer": "^19.7.2",
+    "puppeteer-utilz": "^4.0.8",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
