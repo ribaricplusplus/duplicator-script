@@ -16,6 +16,7 @@ async function main() {
     .requiredOption("--username <username>")
     .requiredOption("--password <password>")
     .option("--db-only", "Clone database only")
+    .option("--debug", "Display browser")
     .action(async (upstreamUrl, options) => {
       try {
         await duplicatorRecording({ ...options, upstreamUrl });
