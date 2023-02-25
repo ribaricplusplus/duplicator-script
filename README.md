@@ -7,7 +7,7 @@ Script that runs Duplicator Pro through Puppeteer to clone a website into LocalW
 Requirements
 
 - Node.js and npm installed on your machine
-- Upstream website with Duplicator Pro installed and activated
+- Upstream website with Duplicator Pro installed and activated. All security needs to be disabled.
 - LocalWP running locally (where you want the site to be cloned)
 
 Install the duplicator script
