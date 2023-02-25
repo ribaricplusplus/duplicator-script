@@ -21,8 +21,13 @@ Run the script with all the required parameters. You can also pass a --db-only p
 Make sure not to include a trailing `/` at the end of upstream URL and downstream URL.
 
 ```bash
-npx @ribarich/duplicator-script clone https://example.com --downstream-url http://example.local --local-site-name example --username admin_username --password 'admin_pass' --db-only
+npx @ribarich/duplicator-script clone https://example.com --downstream-url http://example.local --local-site-name example --username admin_username --password 'admin_pass'
 ```
+
+### Options
+
+- `--db-only` Clone only the database.
+- `--reuse-package` Reuse last package instead of building a new one.
 
 Then wait for the script to complete. How long it takes depends on the size of the website.
 

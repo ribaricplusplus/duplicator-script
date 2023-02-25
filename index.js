@@ -16,6 +16,10 @@ async function main() {
     .requiredOption("--username <username>")
     .requiredOption("--password <password>")
     .option("--db-only", "Clone database only")
+    .option(
+      "--reuse-package",
+      "Reuse last package instead of building a new one."
+    )
     .option("--debug", "Display browser")
     .action(async (upstreamUrl, options) => {
       try {
