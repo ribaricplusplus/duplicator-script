@@ -24,12 +24,14 @@ Make sure not to include a trailing `/` at the end of upstream URL and downstrea
 npx @ribarich/duplicator-script clone https://example.com --downstream-url http://example.local --local-site-name example --username admin_username --password 'admin_pass'
 ```
 
+Then wait for the script to complete. How long it takes depends on the size of the website.
+
+It is highly recommended that you also pass in the --debug flag. This will make the browser window appear that the script is actually using. In that case, you can help it out manually if it gets stuck.
+
 ### Options
 
 - `--db-only` Clone only the database.
 - `--reuse-package` Reuse last package instead of building a new one.
-
-Then wait for the script to complete. How long it takes depends on the size of the website.
 
 It is recommended that in the Duplicator Pro you add file filters for the files you're working on so that they do not get overriden. For example, if you're working on a theme and you have it stored in a GitHub directory, you wouldn't want the Duplicator process to override your local files. These settings can be configured in Duplicator Pro before running this script.
 
